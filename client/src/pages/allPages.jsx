@@ -2,6 +2,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Navbar from '../components/common/Navbar';
+import Footer from '../components/common/Footer';
 
 const ADMIN_TABS = ['Overview', 'Courses', 'Students', 'Tutors', 'Payments'];
 const STATS = [
@@ -88,8 +89,7 @@ export function AdminPage() {
 }
 
 // ── TutorsPage.jsx ─────────────────────────────────────────────────────────────
-import Navbar from '../components/common/Navbar';
-import Footer from '../components/common/Footer';
+
 
 const TUTORS_LIST = [
   { initials: 'SY', name: 'Sumit Yadav', subject: 'Computer Science', experience: 5, rating: 5.0, students: 2400, courses: 12, note: 'NIT Jamshedpur · Founder', gradient: 'from-blue-600 to-purple-600', expertise: ['Python', 'Web Dev', 'Data Structures'] },

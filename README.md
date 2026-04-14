@@ -34,7 +34,7 @@ Tution Master is a full-stack MERN EdTech platform designed for students in Nepa
 
 ### 1. Clone & Install
 ```bash
-git clone https://github.com/yourname/tution-master.git
+git clone https://github.com/theTyai/Tution-Master.git
 cd tution-master
 
 # Install all dependencies
