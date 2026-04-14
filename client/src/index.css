@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * { box-sizing: border-box; }
+  body { font-family: 'Nunito', sans-serif; }
+  ::-webkit-scrollbar { width: 4px; }
+  ::-webkit-scrollbar-track { background: #0a0e1a; }
+  ::-webkit-scrollbar-thumb { background: #4f8ef7; border-radius: 2px; }
+}
+
+@layer utilities {
+  .font-sora  { font-family: 'Sora', sans-serif; }
+  .font-nunito { font-family: 'Nunito', sans-serif; }
+}

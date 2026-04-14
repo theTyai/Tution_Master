@@ -1,0 +1,17 @@
+{
+  "name": "tution-master",
+  "version": "1.0.0",
+  "description": "Tution Master — Nepal's EdTech Platform. Founded by Sumit Yadav (NIT Jamshedpur)",
+  "private": true,
+  "scripts": {
+    "dev":         "concurrently \"npm run server\" \"npm run client\"",
+    "server":      "cd server && npm run dev",
+    "client":      "cd client && npm run dev",
+    "install:all": "npm i && cd server && npm i && cd ../client && npm i",
+    "seed":        "cd server && npm run seed",
+    "build":       "cd client && npm run build"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
